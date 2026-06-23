@@ -1,0 +1,42 @@
+names:
+- Papel de aluminio
+- Botella
+- "Tap\xF3n de botella"
+- Vidrio roto
+- Lata
+- "Cart\xF3n"
+- Cigarrillo
+- Vaso
+- Tapa
+- Otros residuos
+- "Otros pl\xE1ticos"
+- Papel
+- "Bolsa de pl\xE1stico / envoltorio"
+- "Contenedor de pl\xE1stico"
+- Anilla de lata
+- Pajita
+- Corcho blanco
+- Residuo sin clasificar
+names_english:
+- Aluminium foil
+- Bottle
+- Bottle cap
+- Broken glass
+- Can
+- Carton
+- Cigarette
+- Cup
+- Lid
+- Other litter
+- Other plastic
+- Paper
+- Plastic bag - wrapper
+- Plastic container
+- Pop tab
+- Straw
+- Styrofoam piece
+- Unlabeled litter
+nc: 18
+test: test/images
+train: train/images
+val: valid/images

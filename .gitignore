@@ -1,0 +1,16 @@
+train/
+valid/
+test/
+runs/
+runs_ANTIGUO/
+runs_GPU_PRIMERO_1000_FOTOS/
+runs_GPU_SEGUNDO_4000_FOTOS/
+detection_results/
+detection_results2/
+detection_results3/
+new_images/
+resultados_GPU/
+.ipynb_checkpoints/
+Object detection using YOLOv8-resumido-Copy1.ipynb
+Object detection using YOLOv8.ipynb
+*.pt
