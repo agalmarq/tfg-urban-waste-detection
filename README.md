@@ -1,13 +1,13 @@
-# TFG YOLOv8 - Urban Waste Detection
+# TFG — Urban Waste Detection with YOLOv8
 
-Proyecto de detección de residuos urbanos usando YOLOv8.
+Automated urban waste detection using YOLOv8 — Bachelor's Thesis in Mathematics, Universidad de La Laguna (2026)
 
 ## Contenido
-- Entrenamiento en YOLOv8
+- Entrenamiento con YOLOv8
 - Evaluación de resultados
 - Inferencia sobre imágenes
 
 ## Archivos
 - Notebook con todo el pipeline
-- data.yaml configuración del dataset
+- `data.yaml` — configuración del dataset
 - Resultados en imágenes y tablas
