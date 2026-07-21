@@ -78,8 +78,8 @@ Experiment 2 illustrates in practice how an unrepresentative validation sample c
 Surface density per image is defined as:
 
 ```
-Ds = Σ (wi × hi)   [for ground truth, with YOLO-normalised coordinates]
-Ds = Σ |x2-x1| × |y2-y1| / (W × H)   [for predictions, in absolute pixels]
+Ds = Σ (wi × hi)   [for ground truth]
+Ds = Σ |x2-x1| × |y2-y1| / (W × H)   [for predictions]
 ```
 
 The density variable presents positive skewness. A log-transformation was applied and normality was verified via Shapiro-Wilk test (p = 0.169) and QQ-plot. A 95 % confidence interval was computed using Student's t-distribution with n−1 = 99 degrees of freedom.
