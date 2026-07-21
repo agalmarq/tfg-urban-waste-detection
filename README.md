@@ -69,7 +69,7 @@ Three successive experiments were run to study the effect of training length and
 | Experiment | Epochs | Validation set | mAP50 (val) | Notes |
 |------------|--------|----------------|-------------|-------|
 | 1 | 80 | 1,700 images | 0.386 | Underfitting baseline |
-| 2 | 1,000 | 250 images ⚠️ | 0.027 | Methodological error — incomplete validation |
+| 2 | 1,000 | 250 images | 0.027 | Methodological error — incomplete validation |
 | 3 | 1,000 | 1,700 images | **0.437** | Optimised model |
 
 Experiment 2 illustrates in practice how an unrepresentative validation sample completely distorts metrics — a relevant lesson in experimental rigour.
