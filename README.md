@@ -104,10 +104,13 @@ The density variable presents positive skewness. A log-transformation was applie
 ```
 tfg-urban-waste-detection/
 ├── notebooks/
-│   └── Object detection using YOLOv8-resumido.ipynb   # Full pipeline
+│   └── Object detection using YOLOv8-resumido.ipynb     # Full pipeline
 ├── results/
-│   ├── comparativa_inferencia.png                      # Density inference plot
-│   └── diagnostico_normalidad.png                      # Normality diagnostics
+│   ├── comparativa_inferencia.png                      
+│   └── diagnostico_normalidad.png                      
+│   ├── inferencia_densidad_log.png
+├── weights/
+│   └── best.pt                                         # Trained model weights 
 ├── data.yaml                                           # Dataset configuration
 └── README.md
 ```
@@ -134,7 +137,7 @@ model.train(data="data.yaml", epochs=1000, imgsz=416)
 ### Inference
 
 ```python
-model = YOLO("best.pt")  # Load fine-tuned weights
+model = YOLO("weights/best.pt")  # Load fine-tuned weights
 results = model("your_image.jpg")
 results[0].show()
 ```
