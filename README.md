@@ -3,7 +3,7 @@
 **Automated detection and statistical analysis of urban waste using deep learning**
 
 Bachelor's Thesis in Mathematics · Universidad de La Laguna · May 2026  
-*Distinction (Matrícula de Honor)*
+*Grade: 10/10 (Highest Distinction, top award in cohort)*
 
 ---
 
