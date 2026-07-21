@@ -106,7 +106,6 @@ tfg-urban-waste-detection/
 ├── notebooks/
 │   └── Object detection using YOLOv8-resumido.ipynb   # Full pipeline
 ├── results/
-│   ├── results_tables.xlsx                             # Metrics across experiments
 │   ├── comparativa_inferencia.png                      # Density inference plot
 │   └── diagnostico_normalidad.png                      # Normality diagnostics
 ├── data.yaml                                           # Dataset configuration
